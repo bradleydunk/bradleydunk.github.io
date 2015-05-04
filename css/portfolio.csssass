@@ -1,6 +1,9 @@
 .portfolio_nav {
-  height: 220px;
+  height: 100%;
   text-align: center; }
+
+.portfolio_nav_img {
+  height: 80%; }
 
 .portfolio_content_1 {
   background-color: #f0e613; }
@@ -38,4 +41,4 @@
 .portfolio_content_12 {
   background-color: #afb2b3; }
 
-/*# sourceMappingURL=portfolio.css.map */
+/*# sourceMappingURL=portfolio.csssass.map */

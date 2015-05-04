@@ -1,5 +1,5 @@
 .portfolio_nav {
-  height: 220px;
+  height: 100%;
   text-align: center;
 
       @media (min-width: 320px) and (max-width: 480px) {
@@ -9,8 +9,12 @@
      }
 }
 
+.portfolio_nav_img {
+  height: 80%;
+}
+
 .portfolio_content_1 {
-  background-color: #009EDC;
+  background-color: #f0e613;
 }
 
 .portfolio_content_2 {

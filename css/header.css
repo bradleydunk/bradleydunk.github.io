@@ -1,15 +1,6 @@
 #header {
   background-color: #FFFFFF;
-  width: 100%;
-  height: 150px; }
-  @media (min-width: 320px) and (max-width: 480px) {
-    #header {
-      padding-left: 20%;
-      padding-right: 20%; } }
-  @media (min-width: 481px) and (max-width: 1024px) {
-    #header {
-      padding-left: 8%;
-      padding-right: 8%; } }
+  width: 100%; }
 
 .navIcons {
   width: 80px;
