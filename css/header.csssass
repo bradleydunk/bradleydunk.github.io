@@ -3,15 +3,14 @@
   width: 100%; }
 
 .bradley {
-  font-size: 3.6rem;
+  font-size: 36px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
-  margin-left: 60px;
-  margin-top: 1.45em; }
+  margin-left: 60px; }
 
 .navIcons {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border: none;
   display: inline-block; }
   .navIcons.twitter {
@@ -24,22 +23,7 @@
       background-size: cover; }
 
 .header_links {
-  margin-top: 1.85em;
-  margin-left: 1em;
-  margin-right: 1em;
-  font-size: 2.0rem;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 4px;
-  padding-bottom: 1.6em; }
+  margin-top: 40px;
+  font-size: 24px; }
 
-.current {
-  border-bottom: 8px solid #000; }
-
-.header_links_contact {
-  margin-top: 1.3em; }
-
-ul.nav.navbar-nav.navbar-right {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=header.csssass.map */

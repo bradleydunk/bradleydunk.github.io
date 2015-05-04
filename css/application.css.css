@@ -2,9 +2,16 @@
   background-color: #FFFFFF;
   width: 100%; }
 
+.bradley {
+  font-size: 3.6rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  margin-left: 60px;
+  margin-top: 1.45em; }
+
 .navIcons {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border: none;
   display: inline-block; }
   .navIcons.twitter {
@@ -15,5 +22,24 @@
     .navIcons.twitter:hover, .navIcons.twitter:active {
       background-image: image-url("twitter.svg");
       background-size: cover; }
+
+.header_links {
+  margin-top: 1.85em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 2.0rem;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  padding-bottom: 1.6em; }
+
+.current {
+  border-bottom: 8px solid #000; }
+
+.header_links_contact {
+  margin-top: 1.3em; }
+
+ul.nav.navbar-nav.navbar-right {
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 /*# sourceMappingURL=application.css.css.map */
