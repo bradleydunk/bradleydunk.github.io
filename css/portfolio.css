@@ -202,4 +202,53 @@ h1.footer_nav {
   margin-bottom: 2em;
   text-align: center;
 }
+
+.content_header {
+  height: 520px;
+}
+
+.zenpay{
+    /*Official Syntax*/
+  background-image: linear-gradient(45deg, #ff5a00, #FFAE00); 
+
+  /*Browser Syntax*/
+  background-image: -webkit-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -moz-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -o-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -ms-linear-gradient(45deg, #ff5a00, #FFAE00);
+  } 
+
+  h1.projectname {
+      text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-size: 3.6rem;
+  margin-top: 1.5em;
+  }
+
+    h2.projectinvolved {
+      text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+  }
+
+  p.projecttext {
+          text-align: center;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+  }
+
+  .bottom-arrow {
+  bottom: -15px;
+  margin-left: -16px;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 16px solid #fff;
+}
+
+.project_area {
+  background-color: #afb2b3;
+}
+
 /*# sourceMappingURL=portfolio.css.map */
