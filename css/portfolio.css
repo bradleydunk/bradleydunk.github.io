@@ -1,21 +1,119 @@
 .portfolio_nav {
-  height: 220px;
+  height: 260px; 
   text-align: center; }
+
+.portfolio_nav_img {
+  display: block;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.media__image { display: block; }
+
+.media__body {
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  color: white;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3.75em 3em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media__body:hover { opacity: 1; }
+
+.media__body:after,
+.media__body:before {
+  bottom: 1em;
+  content: '';
+  left: 1em;
+  opacity: 0;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s 0.2s;
+  transition: 0.6s 0.2s;
+}
+
+.media__body:before {
+  border-bottom: none;
+  border-top: none;
+  left: 2em;
+  right: 2em;
+}
+
+.media__body:after {
+  border-left: none;
+  border-right: none;
+  bottom: 2em;
+  top: 2em;
+}
+
+.media__body:hover:after,
+.media__body:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.media__body h2 { margin-top: 0; }
+
+.media__body p { margin-bottom: 1.5em; }
+
+.media_body_btn a {
+  display: block;
+  position: relative;
+  color: #FFFFFF;
+  border: 2px solid;
+  padding-top: 4px;
+  padding-left: 0;
+  padding-bottom: 4px;
+  margin: 70px 16px 0 16px;
+}
+
+
 
 .portfolio_content_1 {
   background-color: #f0e613; }
 
 .portfolio_content_2 {
-  background-color: #64dc14; }
+  background-color: #f3cce1; }
 
 .portfolio_content_3 {
-  background-color: #fe0101; }
+  background-color: #ffffff; }
 
 .portfolio_content_4 {
-  background-color: #9835e4; }
+  background-color: #000000; }
 
 .portfolio_content_5 {
-  background-color: #96c93d; }
+    /*Official Syntax*/
+  background-image: linear-gradient(45deg, #ff5a00, #FFAE00); 
+
+  /*Browser Syntax*/
+  background-image: -webkit-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -moz-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -o-linear-gradient(45deg, #ff5a00, #FFAE00);
+  background-image: -ms-linear-gradient(45deg, #ff5a00, #FFAE00);
+} }
 
 .portfolio_content_6 {
   background-color: #41a0d8; }
@@ -38,4 +136,26 @@
 .portfolio_content_12 {
   background-color: #afb2b3; }
 
+.abacus {
+  background-image: url("assets/images/nav_abacus.jpg");
+  background-size: cover;
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
 /*# sourceMappingURL=portfolio.css.map */
