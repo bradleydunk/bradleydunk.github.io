@@ -19,6 +19,7 @@
 .media__image { display: block; }
 
 .media__body {
+
   background: rgba(0, 0, 0, 0.8);
   bottom: 0;
   color: white;
@@ -80,6 +81,8 @@
 .media__body p { margin-bottom: 1.5em; }
 
 a.media_body_link {
+  z-index:1;
+
   display: block;
   position: relative;
   color: #FFFFFF;
@@ -120,6 +123,8 @@ a.media_body_link {
   background-color: #000000; }
 
 .portfolio_content_5 {
+
+  z-index:-10;
     /*Official Syntax*/
   background-image: linear-gradient(45deg, #ff5a00, #FFAE00); 
 
@@ -208,6 +213,11 @@ h1.footer_nav {
   height: 520px;
 }
 
+  @media (min-width: 320px) and (max-width: 480px) {
+    .content_header{
+        height: 320px;
+     }
+}
 .zenpay{
     /*Official Syntax*/
   background-image: linear-gradient(45deg, #ff5a00, #FFAE00); 
@@ -220,24 +230,31 @@ h1.footer_nav {
   } 
 
   h1.projectname {
-      text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 4px;
-  font-size: 3.6rem;
-  margin-top: 1.5em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    font-size: 3.6rem;
+    
+    margin-top: 1.5em;
   }
 
-    h2.projectinvolved {
-      text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 4px;
-  font-size: 1.6rem;
+  h2.projectinvolved {
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    letter-spacing: 4px;
+    font-size: 1.8rem;
+
+    margin-top: 1.6em;
   }
 
   p.projecttext {
-          text-align: center;
-  letter-spacing: 4px;
-  font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 1.4px;
+    font-size: 1.8rem;
+    font-family: 'Droid Serif', serif;
+    line-height: 1.7em;
+
+    margin-top: 2em;
   }
 
 
