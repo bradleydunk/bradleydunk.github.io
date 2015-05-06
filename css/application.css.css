@@ -134,23 +134,61 @@ p.nav_burger {
   margin-top: 0.8em;
   border: none; }
 
-.nav_contact {
+.nav_contact_twitter {
   background: url("images/twitter.svg");
   width: 50px;
   height: 50px;
   background-repeat: no-repeat;
   background-size: cover; }
-  .nav_contact:hover, .nav_contact:active {
+  .nav_contact_twitter:hover, .nav_contact_twitter:active {
     background: url("images/twitter_active.svg");
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;
     background-size: cover; }
   @media (min-width: 990px) and (max-width: 1240px) {
-    .nav_contact {
+    .nav_contact_twitter {
       width: 50px; } }
   @media (max-width: 990px) {
-    .nav_contact {
+    .nav_contact_twitter {
+      /*float: left; */ } }
+
+.nav_contact_email {
+  background: url("images/email.svg");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .nav_contact_email:hover, .nav_contact_email:active {
+    background: url("images/email_active.svg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  @media (min-width: 990px) and (max-width: 1240px) {
+    .nav_contact_email {
+      width: 50px; } }
+  @media (max-width: 990px) {
+    .nav_contact_email {
+      /*float: left; */ } }
+
+.nav_contact_xing {
+  background: url("images/xing.svg");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .nav_contact_xing:hover, .nav_contact_xing:active {
+    background: url("images/xing_active.svg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  @media (min-width: 990px) and (max-width: 1240px) {
+    .nav_contact_xing {
+      width: 50px; } }
+  @media (max-width: 990px) {
+    .nav_contact_xing {
       /*float: left; */ } }
 
 @media (max-width: 990px) {

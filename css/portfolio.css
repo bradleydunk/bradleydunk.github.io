@@ -107,7 +107,59 @@ a.media_body_link {
     text-decoration: none;
   }
 
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.bradley{
+  margin-left: -15px;
+}
+}
 
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.bradley{
+  margin-left: -1.5em;
+  margin-top: -2.25em;
+  font-size: 1.8rem;
+}
+.navbar-toggle{
+  margin-right: 0px;
+}
+
+.mob-nav-link {
+  line-height: 1.5em!important;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+.burger_menu_btns {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+
+}
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.bradley{
+  margin-left: -1.5em;
+  margin-top: 1.25em;
+}
+.navbar-toggle{
+  margin-right: 0px;
+}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
 
 
 .portfolio_content_1 {
@@ -156,6 +208,15 @@ a.media_body_link {
 
 .abacus {
   background: url('images/nav_abacus.jpg'); 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ginipay {
+  background: url('images/nav_ginipay.jpg'); 
   no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -390,7 +451,7 @@ header h1 {
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 2em;
 }
 #cd-timeline::before {
@@ -405,7 +466,7 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
-    margin-top: 3em;
+    margin-top: 0;
     margin-bottom: 3em;
   }
   #cd-timeline::before {
@@ -786,6 +847,52 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+h1.abouttitle {
+font-size: 6rem;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+
+}
+
+.about_skills {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+}
+
+.getintouch {
+  margin-top: 4em;
+  width: 12em;
+  height: 3em;
+  }
+
+.about_timeline_header {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+}
+
+.about_timeline {
+  margin-top:0;
+
+  background-image: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(0, #1BA9FB),
+  color-stop(1, #B1E3F0)
+);
+background-image: -o-linear-gradient(right bottom, #1BA9FB 0%, #B1E3F0 100%);
+background-image: -moz-linear-gradient(right bottom, #1BA9FB 0%, #B1E3F0 100%);
+background-image: -webkit-linear-gradient(right bottom, #1BA9FB 0%, #B1E3F0 100%);
+background-image: -ms-linear-gradient(right bottom, #1BA9FB 0%, #B1E3F0 100%);
+background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
 }
 
 

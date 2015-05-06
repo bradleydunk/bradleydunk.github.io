@@ -10,7 +10,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css"> 
     <link rel="stylesheet" href="css/portfolio.css"> 
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,8 +37,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="header_links current"><a href="#">PORTFOLIO</a></li>
-        <li class="header_links alt"><a href="/about">ABOUT & CONTACT</a></li>
+        <li class="header_links current"><a class="mob-nav-link" href="/index.html">PORTFOLIO</a></li>
+        <li class="header_links alt"><a class="mob-nav-link" href="/about-and-contact.html">ABOUT & CONTACT</a></li>
 
 
         <li class="header_links_contact"><a href="#"><span class="img-responsive nav_contact" alt="@vector_junkie"/></span></a></li>
@@ -61,7 +60,6 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
     </div>
 
         
@@ -73,17 +71,9 @@
 
             <p class="projecttext">I love to make beautiful things that make peoples’ lifes better. Whether it be an app, that through real purpose and ease of use makes life easier. Or simply creating something that puts a smile on some ones face - I truly believe that good design makes the world a better place.</p>
 
-            <p class="projecttext">After studying psychology at university I began working in marketing roles for various London based multinational companies. Here I discovered my love for Photoshop, and became instantly obsessed. This led to leaving marketing behind to teach myself the principles of design as well as how to implement them, with Illustrator (my favourite tool), Photoshop and all the rest.</p>
-
-            <p class="projecttext">I founded Pixel and Ink LLP after re-locating to Berlin. Offering digital and print solutions, I worked with some great clients (including the Guardian Edinburgh  International Television Festival, amongst others) on some awesome projects. After three years I decided that I really missed working in teams and was after a new challenge.</p>
-
-            <p class="projecttext">Shortly after moving to Munich I found the perfect opportunity at Gini. Here I work primarily with iOS apps, but also web apps, website design and development as well as all marketing and sales materials. In effect, all visual materials that come out of the company.</p>
-
-            <p class="projecttext">So that’s a (very) brief summary about me, if you would like to get to know me better, or just have a chat about anything from design to comics to QPR (my beloved football team) please give me a shout!</p>
-
+            
             <p align="center">
-              <button type="button" class="btn btn-primary btn-lg">Get in touch</button>
-              <button type="button" class="btn btn-default btn-lg">Get in touch</button>
+              <button type="button" class="btn btn-primary btn-lg getintouch">Get in touch</button>
             </p>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 about_header_pic">
@@ -91,9 +81,16 @@
           </div>
       </div>
 
+<div class="container-fluid about_skills">
+<h1 class="abouttitle">MY SKILLS</h1>
+</div>
 
-
-  <section id="cd-timeline" class="cd-container">
+<div class="container-fluid about_timeline_header">
+<h1 class="abouttitle">A BRIEF HISTORY OF ME</h1>
+</div>
+        
+<div class="container-fluid about_timeline">
+  <section id="cd-timeline" class="cd-container section-inverted section-arrow spacing-bottom">
     <div class="cd-timeline-block">
       <div class="cd-timeline-img cd-picture">
         <img src="img/cd-icon-picture.svg" alt="Picture">
@@ -171,6 +168,7 @@
       </div> <!-- cd-timeline-content -->
     </div> <!-- cd-timeline-block -->
   </section> <!-- cd-timeline -->
+</div>
 
 
 

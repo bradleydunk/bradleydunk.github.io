@@ -70,6 +70,8 @@
       background-size: cover;
     }
   }
+
+
 }
 
 .header_links {
@@ -190,7 +192,7 @@ p.nav_burger {
   border: none;
 }
 
-.nav_contact {
+.nav_contact_twitter {
 
     background: url('images/twitter.svg');
     width: 50px;
@@ -201,6 +203,56 @@ p.nav_burger {
       &:hover,
       &:active {
         background: url('images/twitter_active.svg');
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+          @media (min-width: 990px) and (max-width: 1240px) {
+          width: 50px;
+     }
+             @media (max-width: 990px) {
+          /*float: left; */
+        }
+}
+
+.nav_contact_email{
+
+    background: url('images/email.svg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      &:hover,
+      &:active {
+        background: url('images/email_active.svg');
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+          @media (min-width: 990px) and (max-width: 1240px) {
+          width: 50px;
+     }
+             @media (max-width: 990px) {
+          /*float: left; */
+        }
+}
+
+.nav_contact_xing{
+
+    background: url('images/xing.svg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+      &:hover,
+      &:active {
+        background: url('images/xing_active.svg');
         width: 50px;
         height: 50px;
         background-repeat: no-repeat;
