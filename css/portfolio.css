@@ -107,10 +107,32 @@ a.media_body_link {
     text-decoration: none;
   }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 360px) {
+.bradley{
+  margin-left: -30px;
+}
+
+.nav_burger_btn {
+  width: 40px;
+}
+
+.navbar-toggle {
+  margin-right: 10px;
+}
+
+}
+
+
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 .bradley{
   margin-left: -15px;
+}
+
+.about_header_text {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
 }
 }
 
@@ -133,8 +155,27 @@ a.media_body_link {
 .burger_menu_btns {
   padding-right: 0px !important;
   padding-left: 0px !important;
-
 }
+
+.about_header_text {
+  padding-right: 14px!important;
+  padding-left: 14px!important;
+}
+
+.about_header {
+  margin-top:0px!important;
+}
+
+.about_header_pic {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+
+.getintouch {
+  margin-top: 2em!important;
+  margin-bottom: 2em;
+}
+
 }
 
 /* iPhone 6 ----------- */
@@ -150,6 +191,13 @@ a.media_body_link {
 .navbar-toggle{
   margin-right: 0px;
 }
+
+.about_header_text {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+  margin-top: 0px;
+}
+
 }
 
 /* iPhone 6+ ----------- */
@@ -202,7 +250,7 @@ background-image: linear-gradient(to right top, #1BA9FB 0%, #96C93D 100%);
   background-color: #b0e3f0; }
 
 .portfolio_content_10 {
-  background-color: #007c99; }
+  background-color: #b0e3f0; }
 
 .portfolio_content_11 {
   background-color: #78f9ca; }
@@ -227,6 +275,16 @@ background-image: linear-gradient(to right top, #1BA9FB 0%, #96C93D 100%);
   -o-background-size: cover;
   background-size: cover;
 }
+
+.miramint {
+  background: url('images/nav_miramint.png'); 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .thumbnail {
     position:relative;
@@ -389,6 +447,9 @@ h1.footer_nav {
 .about_header {
   margin-top: 6em;
   background-color: #ffffff;
+
+  border-bottom: 22px solid #000;
+  border-top: 1px solid #000;
 }
 
 .about_header_text {
@@ -404,6 +465,8 @@ h1.footer_nav {
 .bradley_illustration {
   float: right;
 }
+
+
 
 
 
