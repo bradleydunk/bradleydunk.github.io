@@ -146,6 +146,12 @@ h1.projectname {
   float: none!important;
 }
 
+.portfolio_content_11 {
+ display: none; }
+
+.portfolio_content_12 {
+  display: none; }
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -310,10 +316,10 @@ background-image: linear-gradient(to right top, #1BA9FB 0%, #96C93D 100%);
   background-color: #b0e3f0; }
 
 .portfolio_content_11 {
-  background-color: #78f9ca; }
+  background-color: #666666; }
 
 .portfolio_content_12 {
-  background-color: #afb2b3; }
+  background-color: #ffffff; }
 
 .abacus {
   background: url('images/nav_abacus.jpg'); 
@@ -1034,6 +1040,22 @@ background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+}
+
+.stage-ginipay {
+  background-position: 30% 36%;
+}
+
+.stage-abacus {
+  background-position: 30% 36%;
+}
+
+.stage-miramint {
+  background-position: 30% 10%;
+}
+
+.content {
+  margin-top: 6em;
 }
 
 /*# sourceMappingURL=portfolio.css.map */
