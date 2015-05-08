@@ -107,6 +107,47 @@ a.media_body_link {
     text-decoration: none;
   }
 
+@media (max-width: 1500px){
+.about_header_pic {
+  padding-right: 4em!important;
+}
+
+.about_header_text {
+  padding-right: 16em;
+  padding-left: 2em!important;
+}
+
+.getintouch {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+}
+
+@media (max-width: 990px){
+
+.about_header_text {
+  padding-right: 2em!important;
+  padding-left: 2em!important;
+}
+
+.about_header_pic {
+  padding-right: 0em!important;
+  padding-left: 0em!important;
+  vertical-align: bottom!important;
+  position: relative!important;
+}
+
+h1.projectname {
+  margin-top: 0!important;
+}
+
+.bradley_illustration {
+  float: none!important;
+}
+
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 360px) {
 .bradley{
@@ -164,11 +205,16 @@ a.media_body_link {
 
 .about_header {
   margin-top:0px!important;
+
+  border-bottom: 22px solid #000;
+  border-top: 1px solid #000;
 }
 
 .about_header_pic {
   padding-right: 0px!important;
   padding-left: 0px!important;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .getintouch {
@@ -198,6 +244,13 @@ a.media_body_link {
   margin-top: 0px;
 }
 
+.about_header {
+  margin-top:0px!important;
+
+  border-bottom: 22px solid #000;
+  border-top: 1px solid #000;
+}
+
 }
 
 /* iPhone 6+ ----------- */
@@ -206,7 +259,11 @@ a.media_body_link {
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+.about_header_text {
+  padding-right: 20px!important;
+  padding-left: 20px!important;
+  margin-top: 0px;
+}
 }
 
 
@@ -449,7 +506,8 @@ h1.footer_nav {
   background-color: #ffffff;
 
   border-bottom: 22px solid #000;
-  border-top: 1px solid #000;
+
+  position: relative;
 }
 
 .about_header_text {
@@ -460,6 +518,12 @@ h1.footer_nav {
 .about_header_pic {
   padding-right: 16em;
   padding-left: 0em;
+  vertical-align:bottom;
+
+  position: absolute;
+  /* top: 0px; */
+  right: 0px;
+  bottom: 0px;
 }
 
 .bradley_illustration {
@@ -932,7 +996,8 @@ font-size: 6rem;
 }
 
 .getintouch {
-  margin-top: 4em;
+  margin-top: 3em;
+  margin-bottom: 4em;
   width: 12em;
   height: 3em;
   }
@@ -962,5 +1027,13 @@ background-image: -ms-linear-gradient(right bottom, #1BA9FB 0%, #B1E3F0 100%);
 background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
 }
 
+.btn-primary {
+  background-color: #00ADEF;
+  border: none;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+}
 
 /*# sourceMappingURL=portfolio.css.map */
