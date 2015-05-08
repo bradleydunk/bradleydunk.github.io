@@ -1054,6 +1054,15 @@ background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
   background-position: 30% 10%;
 }
 
+.nav-miramint {
+   background-position: 50% 10%;
+}
+
+.nav-ginipay {
+   background-position: 50% 10%;
+}
+
+
 .content {
   margin-top: 6em;
 }
