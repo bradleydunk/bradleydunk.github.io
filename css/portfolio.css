@@ -125,7 +125,7 @@ a.media_body_link {
 }
 
 
-@media (max-width: 767px) and (min-width: 481px) {
+@media (max-width: 767px) and (min-width: 320px) {
 
 .screenshots1 {
   float: none!important;
@@ -141,6 +141,13 @@ a.media_body_link {
 
 .altscreenshot_lg {
   display: none!important;
+}
+
+a.content_body_link {
+  width: 85%!important;
+  height: 3em!important;
+
+  font-size: 2.6rem!important;
 }
 
 }
@@ -215,10 +222,11 @@ a.content_body_link {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+
 .bradley{
-  margin-left: -1.5em;
-  margin-top: 1.35em;
-  font-size: 1.8rem;
+  margin-left: -1.8em;
+  margin-top: 1.5em;
+  font-size: 1.6rem;
 }
 .navbar-toggle{
   margin-right: 0px;

@@ -3,9 +3,17 @@
   width: 100%;
 
       @media (min-width: 320px) and (max-width: 480px) {
+        width: 95%
      }
 
       @media (min-width: 481px) and (max-width: 1024px) {
+     }
+}
+
+.navbar-toggle {
+
+        @media (min-width: 320px) and (max-width: 480px) {
+        padding-right: 2px;
      }
 }
 

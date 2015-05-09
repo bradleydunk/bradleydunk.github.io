@@ -1,6 +1,13 @@
 #header {
   background-color: #FFFFFF;
   width: 100%; }
+  @media (min-width: 320px) and (max-width: 480px) {
+    #header {
+      width: 95%; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-toggle {
+    padding-right: 2px; } }
 
 .bradley {
   font-size: 3.6rem;
