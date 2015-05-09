@@ -124,6 +124,28 @@ a.media_body_link {
 
 }
 
+
+@media (max-width: 767px) and (min-width: 481px) {
+
+.screenshots1 {
+  float: none!important;
+}
+
+.screenshots3 {
+  float: none!important;
+}
+
+.altscreenshot_sm {
+  display: block!important;
+}
+
+.altscreenshot_lg {
+  display: none!important;
+}
+
+}
+
+
 @media (max-width: 990px){
 
 .about_header_text {
@@ -149,6 +171,11 @@ h1.projectname {
 .portfolio_content_12 {
   display: none; }
 
+.miramint-icon {
+  width: 14em!important;
+}
+
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -163,6 +190,13 @@ h1.projectname {
 
 .navbar-toggle {
   margin-right: 10px;
+}
+
+a.content_body_link {
+  width: 12em!important;
+  height: 3em!important;
+
+  font-size: 2.6rem!important;
 }
 
 }
@@ -183,7 +217,7 @@ h1.projectname {
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 .bradley{
   margin-left: -1.5em;
-  margin-top: -2.25em;
+  margin-top: 1.35em;
   font-size: 1.8rem;
 }
 .navbar-toggle{
@@ -223,6 +257,13 @@ h1.projectname {
 .getintouch {
   margin-top: 2em!important;
   margin-bottom: 2em;
+}
+
+a.content_body_link {
+  width: 11.2em!important;
+  height: 3em!important;
+
+  font-size: 2.6rem!important;
 }
 
 }
@@ -1048,7 +1089,7 @@ background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
 }
 
 .stage-miramint {
-  background-position: 30% 10%;
+  background-position: 50% 10%;
 }
 
 .nav-miramint {
@@ -1063,5 +1104,68 @@ background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
 .content {
   margin-top: 6em;
 }
+
+.funkjunkie-tshirt {
+
+  height: 720px;
+
+  background: url('images/funkjunkie_tshirt-front.png'); 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hufheld-logo {
+  height: 40em;
+}
+
+.miramint-icon {
+  width: 22em;
+}
+
+.screenshots1 {
+  float: right;
+}
+
+.screenshots3 {
+  float: left;
+}
+
+.altscreenshot_sm {
+  display: none;
+}
+
+.altscreenshot_lg {
+  display: block;
+}
+
+a.content_body_link {
+  display: block;
+  color: #000000;
+  border: 6px solid;
+
+  width: 18em;
+  height: 3em;
+  margin-bottom: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.6em;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
+  font-size: 3.6rem;
+  text-decoration: none;
+}
+
+a.content_body_link:hover {
+  color: #ffffff;
+  border: 6px solid #000000;
+  background: #000000;
+  text-decoration: none;
+}
+
 
 /*# sourceMappingURL=portfolio.css.map */
