@@ -150,6 +150,10 @@ a.content_body_link {
   font-size: 2.6rem!important;
 }
 
+.content {
+  margin-top: 2em!important;
+}
+
 }
 
 
@@ -182,6 +186,17 @@ h1.projectname {
   width: 14em!important;
 }
 
+.content {
+  margin-top: 2em!important;
+}
+
+.content_main {
+  margin-top: 2em!important;
+}
+
+.hufheld-logo {
+  height: 26em!important;
+}
 
 }
 
@@ -499,6 +514,7 @@ h1.footer_nav {
     font-family: 'Droid Serif', serif;
     letter-spacing: 4px;
     font-size: 1.8rem;
+    line-height: 1.8em;
 
     margin-top: 1.6em;
   }
@@ -1122,6 +1138,10 @@ background-image: linear-gradient(to right bottom, #1BA9FB 0%, #B1E3F0 100%);
 
 
 .content {
+  margin-top: 0em;
+}
+
+.content_main {
   margin-top: 6em;
 }
 
